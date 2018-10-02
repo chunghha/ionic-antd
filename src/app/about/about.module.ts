@@ -4,16 +4,18 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
+import { NgZorroAntdMobileModule } from 'ng-zorro-antd-mobile';
 
-import { HomePage } from './home.page';
+import { AboutPage } from './about.page';
 
 @NgModule({
   imports: [
     IonicModule,
+    NgZorroAntdMobileModule,
     CommonModule,
     FormsModule,
-    RouterModule.forChild([{ path: '', component: HomePage }])
+    RouterModule.forChild([{ path: '', component: AboutPage }])
   ],
-  declarations: [HomePage]
+  declarations: [AboutPage]
 })
-export class HomePageModule {}
+export class AboutPageModule {}

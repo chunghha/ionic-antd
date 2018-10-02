@@ -9,7 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "devapp": "ionic serve -c"
   },
   "private": true,
   "dependencies": {
@@ -27,15 +28,16 @@
     "@ionic/angular": "4.0.0-beta.12",
     "core-js": "^2.5.7",
     "ng-zorro-antd-mobile": "^0.9.3",
+    "ngx-take-until-destroy": "^5.1.0",
     "rxjs": "~6.3.3",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/architect": "~0.8.3",
-    "@angular-devkit/build-angular": "~0.8.3",
-    "@angular-devkit/core": "~0.8.3",
-    "@angular-devkit/schematics": "~0.8.3",
-    "@angular/cli": "6.2.3",
+    "@angular-devkit/architect": "~0.8.4",
+    "@angular-devkit/build-angular": "~0.8.4",
+    "@angular-devkit/core": "~0.8.4",
+    "@angular-devkit/schematics": "~0.8.4",
+    "@angular/cli": "6.2.4",
     "@angular/compiler": "~6.1.9",
     "@angular/compiler-cli": "~6.1.9",
     "@angular/language-service": "~6.1.9",

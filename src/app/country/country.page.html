@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Country
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <List *ngFor="let country of countries | async">
+    <ListItem [extra]="country.capital">
+      <img [src]="country.flag" width="45" height="30">
+      <span style="margin-left: 1em;">{{ country.name }}</span>
+    </ListItem>
+  </List>
+</ion-content>
